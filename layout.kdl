@@ -1,0 +1,17 @@
+theme "nord"
+
+layout {
+  pane split_direction="vertical" {
+    pane {
+      name "text"
+      command "nvim"
+      args "."
+      focus true
+      size "70%"
+    }
+    pane {
+      name "git"
+      size "30%"
+    }
+  }
+}
